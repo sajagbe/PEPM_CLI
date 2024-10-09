@@ -1,6 +1,10 @@
 ## PEPM - Protein Electrostatic Projection Map
 
-![PEPM Logo](./TitleImg.png){width=120 height=120}
+<!-- ![PEPM Logo](./TitleImg.png){width=120 height=120} -->
+
+<img src="./TitleImg.png" alt="TitleImage" width="200" height="200"/>
+
+**Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* Phototropin 1 LOV2 Domain (asLOV2)**
 
 
 I believe my PI was accurate in its descriptive name. 
