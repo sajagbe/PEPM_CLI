@@ -1,5 +1,8 @@
 ## PEPM - Protein Electrostatic Projection Map
 
+![PEPM Logo](https://raw.githubusercontent.com/Jsmith1281/PEPM/main/TitleImg.png)
+
+
 I believe my PI was accurate in its descriptive name. 
 
 This program describes the charges felt by a ligand from its apoenzyme.
