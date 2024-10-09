@@ -1,6 +1,6 @@
 ## PEPM - Protein Electrostatic Projection Map
 
-![PEPM Logo](https://raw.githubusercontent.com/Jsmith1281/PEPM/main/TitleImg.png)
+![PEPM Logo](./TitleImg.png)
 
 
 I believe my PI was accurate in its descriptive name. 
