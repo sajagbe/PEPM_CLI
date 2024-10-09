@@ -4,7 +4,7 @@
 
 <img src="./TitleImg.png" alt="TitleImage">
 
-**Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* Phototropin 1 LOV2 Domain (asLOV2)**
+Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* Phototropin 1 LOV2 Domain (asLOV2)
 
 
 I believe my PI was accurate in its descriptive name. 
