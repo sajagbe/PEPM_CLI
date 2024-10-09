@@ -7,6 +7,7 @@ read pdbName
 
 ./1_pdb2dx.sh << SOA >> main.log
 $pdbName
+A
 SOA
  
 ./2_dx2mol2.sh << SOA >> main.log
