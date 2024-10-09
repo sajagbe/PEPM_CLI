@@ -2,7 +2,7 @@
 
 <!-- ![PEPM Logo](./TitleImg.png){width=120 height=120} -->
 
-<img src="./TitleImg.png" alt="TitleImage" width="200" height="200"/>
+<img src="./TitleImg.png" alt="TitleImage">
 
 **Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* Phototropin 1 LOV2 Domain (asLOV2)**
 
