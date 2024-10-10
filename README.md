@@ -7,9 +7,9 @@
 Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* Phototropin 1 LOV2 Domain (asLOV2)
 
 
-I believe my PI was accurate in its descriptive name. 
-
 This program describes the charges felt by a ligand from its apoenzyme.
+
+I owe the accuratename to my PI, Dr. Samer Gozem.
 
 ## Dependencies
 1. APBS
@@ -29,6 +29,8 @@ This program describes the charges felt by a ligand from its apoenzyme.
 ## To visualize:
 1. cd into ${pdbID}_PEPM, this should contain mol2 files for the electrostatic projections and xyz files for the logands themselves. 
 2. Open the corresponding mol2 file for each ligand and the ligand xyz file in your desired viewer.
+3. Color the mol2 by charge.
+4. Change the range as desired. I prefer +/- 5.
 
 
 ### Notes:
