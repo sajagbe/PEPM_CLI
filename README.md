@@ -9,7 +9,7 @@ Fig. 1: Projection of the Electrostatic Potential felt by FMN in *Avena sativa* 
 
 This program describes the charges felt by a ligand from its apoenzyme.
 
-I owe the accuratename to my PI, Dr. Samer Gozem.
+I owe the accurate name to my PI, Dr. Samer Gozem.
 
 ## Dependencies
 1. APBS
