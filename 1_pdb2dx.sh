@@ -1,3 +1,41 @@
+# deactivate
+
+pip install virtualenv >> pdb2dx.log
+virtualenv pdb2dx >> pdb2dx.log
+source pdb2dx/bin/activate 
+pip install pdb2pqr >> pdb2dx.log
+
+
+
+if [ -z "$VIRTUAL_ENV" ]; then
+    echo "Please activate your virtual environment first."  >> pdb2dx.log
+    exit 1
+fi
+
+
+
+wget https://github.com/Electrostatics/apbs/releases/download/v3.0.0/APBS-3.0.0_OSX-Darwin.zip > /dev/null 2>&1
+unzip APBS-3.0.0_OSX-Darwin.zip >> pdb2dx.log
+rm APBS-3.0.0_OSX-Darwin.zip 
+
+# Create the apbs directory in the virtual environment
+mkdir $VIRTUAL_ENV/apbs >> pdb2dx.log
+
+# Move the contents of the APBS directory to the newly created apbs directory
+mv APBS-3.0.0.Darwin/* $VIRTUAL_ENV/apbs/ 
+
+rm -r APBS-3.0.0.Darwin 
+
+
+export PATH=$VIRTUAL_ENV/apbs/bin:$PATH
+export DYLD_LIBRARY_PATH=$VIRTUAL_ENV/apbs/lib:$DYLD_LIBRARY_PATH
+
+source $VIRTUAL_ENV/bin/activate >> pdb2dx.log
+
+apbs --version >> pdb2dx.log
+
+
+
 
 echo ""
 echo " "
@@ -188,7 +226,10 @@ quit" > apbs.in
 
 apbs apbs.in > /dev/null 2>&1
 
-rm $pdbName.pdb $pdbName.log apbs.in io.mc Ligands.pdb
+deactivate
+
+rm -rf $pdbName.pdb $pdbName.log apbs.in io.mc Ligands.pdb
+
 
 echo "
 

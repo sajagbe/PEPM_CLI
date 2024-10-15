@@ -23,10 +23,10 @@ SOA
 
 
 
-rm Ligand_list* lig*_points lig*_point_charges.txt
+rm -rf Ligand_list* lig*_points lig*_point_charges.txt pdb2dx vdw_surface
 mkdir ${pdbName}_PEPM
-mv main.log *_autoPEPM.mol2 lig*.xyz ${pdbName}Grid* ${pdbName}.* ${pdbName}_PEPM
 
+mv pdb2dx.log *_autoPEPM.mol2 lig*.xyz ${pdbName}Grid* ${pdbName}.* ${pdbName}_PEPM
 
 
 
