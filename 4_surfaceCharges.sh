@@ -1,3 +1,9 @@
+pip install virtualenv > /dev/null 2>&1
+virtualenv p3
+source p3/bin/activate
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
+brew install -f python3
 python3 -m pip install scipy numpy >> main.log
 
 
@@ -35,3 +41,5 @@ cat check >> ${ligand}_autoPEPM.mol2
 done < Ligand_list.txt
 
 rm ${ligand}_points ${ligand}_point_charges.txt tempNumAtoms tempAtomType chec* GridParameters  
+
+deactivate

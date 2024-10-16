@@ -226,10 +226,9 @@ quit" > apbs.in
 
 apbs apbs.in > /dev/null 2>&1
 
-deactivate
-
 rm -rf $pdbName.pdb $pdbName.log apbs.in io.mc Ligands.pdb
 
+deactivate
 
 echo "
 
